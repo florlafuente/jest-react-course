@@ -17,3 +17,11 @@ test('renders without crashing', () => {
   expect(wrapper).toBeTruthy();
 });
 
+test('renders increment button', () => {
+
+});
+
+test('renders counter display', () => {
+
+});
+
