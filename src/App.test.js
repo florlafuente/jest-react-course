@@ -10,11 +10,13 @@ Enzyme.configure({
 
 test('renders without crashing', () => {
   const wrapper = shallow(<App />);
+  const appComponent = wrapper.find("[data-test='component-app']")
   /*
     Console.log DOM as a string
     console.log(wrapper.debug());
   */
   expect(wrapper).toBeTruthy();
+  expect(appComponent.length).toBe(1);
 });
 
 test('renders increment button', () => {
@@ -22,6 +24,14 @@ test('renders increment button', () => {
 });
 
 test('renders counter display', () => {
+
+});
+
+test('counter starts at 0', () => {
+
+});
+
+test('clicking button increments counter display', () => {
 
 });
 
