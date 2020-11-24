@@ -40,23 +40,23 @@ test('renders without crashing', () => {
   expect(appComponent.length).toBe(1);
 });
 
-test('renders increment button', () => {
-  const wrapper = setup();
-  const button = findByTestAttr(wrapper, 'component-increment-button');
-  expect(button.length).toBe(1);
-});
+// test('renders increment button', () => {
+//   const wrapper = setup();
+//   const button = findByTestAttr(wrapper, 'component-increment-button');
+//   expect(button.length).toBe(1);
+// });
 
-test('renders counter display', () => {
-  const wrapper = setup();
-  const counterDisplay = findByTestAttr(wrapper, 'component-counter-display');
-  expect(counterDisplay.length).toBe(1);
-});
+// test('renders counter display', () => {
+//   const wrapper = setup();
+//   const counterDisplay = findByTestAttr(wrapper, 'component-counter-display');
+//   expect(counterDisplay.length).toBe(1);
+// });
 
-test('counter starts at 0', () => {
+// test('counter starts at 0', () => {
 
-});
+// });
 
-test('clicking button increments counter display', () => {
+// test('clicking button increments counter display', () => {
 
-});
+// });
 
